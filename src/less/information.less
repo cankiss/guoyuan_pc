@@ -1,0 +1,92 @@
+@title-padding : 0 40px;
+.flex-5 { flex-basis: 5%}
+.flex-10 {flex-basis: 10%}
+.flex-90 {flex-basis: 90%}
+.flex-95 { flex-basis: 95%}
+.info-container{
+  & > p {
+    line-height: 68px;
+  }
+  .info-show {
+    background: #fff;
+    min-height: 800px;
+    padding: 35px 35px 0;
+    padding-top: 7px;
+    margin-bottom: 40px;
+    h1 {
+      font-size: 20px;
+      color: #232323;
+      text-indent: 1em;
+    }
+    .info-a {
+      padding: 0 20px;
+      padding-top:15px;
+      margin-bottom: 40px;
+        a {
+          display: inline-block;
+          color: #232323;
+          line-height: 40px;
+          cursor: pointer;
+          margin: 0 30px;
+          padding: 0 10px;
+          border-bottom: 2px solid transparent;
+        }
+        a:hover,
+        a.active {
+          color: #FC3A65 !important;
+          border-bottom-color: #FC3A65;
+      }
+    }
+  }
+  .info-table {
+    .info-table-title {
+      display: flex;
+      height: 50px;
+      background: #F9F9F9;
+      margin-bottom: 15px;
+      .flex-90 {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        span {
+          flex-basis: 9%;
+          text-align: center;
+          white-space: nowrap;
+        }
+      }
+    }
+    .info-table-list {
+      height: 80px;
+      display: flex;
+      box-shadow: 0 0 20px 0 #EFEFEF;
+      margin: 10px 0;
+      .flex-95 {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        span {
+          flex-basis: 25%;
+          text-align: center;
+          white-space: nowrap;
+        }
+      }
+    }
+  }
+  .custom-page-container {
+    margin-top: 40px;
+    .custom-page-wrapper {
+      .paginationjs.paginationjs-theme-red .paginationjs-go-input>input[type=text],
+      .paginationjs.paginationjs-theme-red .paginationjs-pages li {
+          margin: 0 5px;
+          border: 1px solid #E0E0E0;
+      }
+      .paginationjs.paginationjs-theme-red .paginationjs-pages li.active>a {
+        background: #FC3A65;
+        color: #fff;
+      }
+      .paginationjs.paginationjs-theme-red .paginationjs-pages li>a {
+        color: #333;
+      }
+    }
+  }
+}

@@ -1,0 +1,187 @@
+/*homeMenu*/
+#homeMenu {
+  margin: 0;
+  padding: 0;
+  padding-top: 34px;
+  padding-bottom: 20px;
+  background-color: #fff;
+}
+
+#homeMenu li {
+  float: left;
+  width: 220px;
+}
+
+#homeMenu li a {
+  display: block;
+}
+
+#homeMenu li a img {
+  display: block;
+  width: 80px;
+  height: 80px;
+  margin: 0 auto;
+  border: 0;
+}
+
+#homeMenu li a p {
+
+}
+
+/*loanContainer*/
+
+.loanContainer {
+  margin-top: 25px;
+  padding: 22px 85px 30px 116px;
+  background-color: #fff;
+}
+
+.loanContainer .title {
+  margin: 0 -35px 0 -90px;
+  position: relative;
+  font-weight: normal;
+}
+
+.loanContainer .title .more {
+  position: absolute;
+  top: 0;
+  right: 0;
+  line-height: 26px;
+}
+
+.loanContainer table {
+  width: 100%;
+  margin-top: 5px;
+  border-collapse: separate;
+  border-spacing: 10px;
+}
+
+.loanContainer table tbody tr {
+  box-shadow: 0 0 20px 0 #EFEFEF;
+}
+
+.loanContainer table thead th {
+  height: 60px;
+  font-size: 20px;
+  color: #333;
+  font-weight: normal;
+}
+
+.loanContainer table tbody td {
+  height: 80px;
+  font-size: 18px;
+  color: #666;
+}
+
+.loanContainer table tbody tr td:first-child {
+  position: relative;
+}
+
+.loanContainer table tbody tr td:first-child img {
+  position: absolute;
+  left: -53px;
+  top: 1px;
+}
+
+.loanContainer table thead th,
+.loanContainer table tbody td {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+/*homeInformation*/
+
+.homeInformation {
+  margin-top: 35px;
+  margin-bottom: 70px;
+}
+
+.homeNews {
+  background-color: #fff;
+  width: 700px;
+  padding: 22px 32px 40px 26px;
+}
+
+.homeNews .title {
+  margin: 0;
+  position: relative;
+  font-weight: normal;
+}
+
+.homeNews .title .more {
+  position: absolute;
+  top: 0;
+  right: 0;
+  line-height: 26px;
+}
+
+.homeNewsWrap {
+  margin: 32px 10px 0 25px;
+}
+
+.homenewspic {
+
+}
+
+.homeNewsList {
+  width: 290px;
+  margin: 0;
+  padding: 0;
+}
+
+.homeNewsList li + li {
+  margin-top: 15px;
+}
+
+.homeNewsList li a {
+  display: block;
+  width: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  font-size: 16px;
+  color: #999;
+}
+
+.homeNotice {
+  background-color: #fff;
+  width: 370px;
+  padding: 22px 32px 40px 26px;
+}
+
+.homeNotice .title {
+  margin: 0;
+  position: relative;
+  font-weight: normal;
+}
+
+.homeNotice .title .more {
+  position: absolute;
+  top: 0;
+  right: 0;
+  line-height: 26px;
+}
+
+.homeNoticeWrap {
+  margin: 32px 0px 0 20px;
+}
+
+.homeNoticeList {
+  margin: 0;
+  padding: 0;
+}
+
+.homeNoticeList li + li {
+  margin-top: 15px;
+}
+
+.homeNoticeList li a {
+  display: block;
+  width: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  font-size: 16px;
+  color: #999;
+}

@@ -1,0 +1,49 @@
+<header id="header">
+    <div class="inner text-right font-16 clearfix">
+        <a href="register.html" class="registerLink font-white fr">注册</a>
+        <a href="login.html" class="loginLink font-white fr">登录</a>
+        <span class="tel font-white fr">400-000-000</span>
+    </div>
+</header>
+
+<nav id="nav">
+    <div class="inner clearfix">
+        <h1 class="companyInfo fl">
+            <span class="companyLogo font-36">LOGO</span>
+            <span class="companyName font-20">江西国元民间信息登记服务中心</span>
+        </h1>
+        <ul class="navList fr clearfix">
+            <li @@if (context.pageName=='index' ) { class="active" }><a href="index.html">&nbsp;首页&nbsp;</a></li>
+            <li @@if (context.pageName=='business' ) { class="active" }><a href="business.html">业务流程</a></li>
+            <li @@if (context.pageName=='information' ) { class="active" }><a href="information.html">信贷信息</a></li>
+            <li @@if (context.pageName=='news' ) { class="active" }><a href="news.html">新闻中心</a></li>
+            <li @@if (context.pageName=='about' ) { class="active" }><a href="aboutUs.html">关于我们</a></li>
+        </ul>
+    </div>
+</nav>
+
+<!-- Swiper -->
+<div @@if (context.header=='none' ) { class="swiper-container hide" } else { class="swiper-container" }>
+    <div class="swiper-wrapper">
+        <div class="swiper-slide">
+            <a href="javascript:;" target="_blank"><img src="img/banner/banner_1.jpg" width="1920" height="360"></a>
+        </div>
+        <!--<div class="swiper-slide">
+            <a href="javascript:;" target="_blank"><img src="img/banner/banner_2.jpg" width="1920" height="360"></a>
+        </div>
+        <div class="swiper-slide">
+            <a href="javascript:;" target="_blank"><img src="img/banner/banner_3.jpg" width="1920" height="360"></a>
+        </div>
+        <div class="swiper-slide">
+            <a href="javascript:;" target="_blank"><img src="img/banner/banner_4.jpg" width="1920" height="360"></a>
+        </div>
+        <div class="swiper-slide">
+            <a href="javascript:;" target="_blank"><img src="img/banner/banner_5.jpg" width="1920" height="360"></a>
+        </div>-->
+    </div>
+    <!-- Add Pagination -->
+    <div class="swiper-pagination"></div>
+    <!-- Add Arrows -->
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+</div>

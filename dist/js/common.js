@@ -1,0 +1,1 @@
+"use strict";var BASEURL="http://qq.com",IMGURL="http://321.com";
